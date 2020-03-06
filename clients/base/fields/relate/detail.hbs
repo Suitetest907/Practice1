@@ -1,0 +1,26 @@
+{{!--
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+<a href="javascript:void(0);" class="rowaction btn" name = "preview1" data-event="button:preview1_button:click" rel="tooltip" data-placement="bottom" title="" aria-label="Preview" role="button" tabindex="0" name="" track="click:preview1" data-original-title="Preview">
+         
+            <i class="fa fa-eye" tabindex="-1"></i>  
+    
+</a>
+--}}
+
+
+{{#if href}}<a class="ellipsis_inline" data-placement="bottom" title="{{value}}" href="{{href}}">{{value}}</a>{{else}}{{value}}{{/if}}
+
+<span sfuuid="184" class="detail">
+<a href="javascript:void(0);" class="preview2_button rowaction btn btn-primary" relateFieldValue = {{href}} data-event="button:preview2_button:click" role="button" tabindex="0" name="preview2_button" track="click:preview2_button">
+<i class="fa fa-eye" tabindex="-1"></i>
+</a>
+</span>
