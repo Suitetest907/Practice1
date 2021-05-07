@@ -52,7 +52,7 @@
     "socket.io": "0.9.16",
     "strip-json-comments": "^2.0.1",
     "typescript": "2.1.5",
-    "underscore": "1.6.0",
+    "underscore": "1.12.1",
     "underscore.string": "2.3.3",
     "zip-folder": "1.0.0"
   }
